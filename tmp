@@ -1,0 +1,12 @@
+SELECT * FROM OB_BINDING_INFO WHERE CHANNEL_ID=?
+/
+params:CPC
+/
+INSERT INTO OB_BINDING_INFO (CHANNEL_ID, AFINITY_CODE, CARD_FILTER_FLAG, POST_URL, SECP_RSA_KEY, OTP_WORDING,CHOOSE_CARD_WORDING, OTP_MAX_TIMES_PER_DAY, API_USER_ID, CREATE_USER, CREATE_DATE, MODIFY_USER,MODIFY_DATE) VALUES (?, ?, ?, ?, ?, ?, ?,?, ?, ?, ?, ?, ?)
+/
+params:CPC@@8515@@Y@@/api/cpc/redirectErrorPageForSit@@mpbobrsakey2048@@<ul><li><span>※</span>提醒您，請確認您在發卡銀行登記的電話號碼與 中油 Pay 帳號上所設定一致。</li></ul>@@<div class="txt"><strong>TEST</strong>請勾選您要綁定至中油Pay支付的信用卡，<br/>若您先前在線上辦理快速綁卡時，<br/>您可點選「快綁卡」選項進行綁定作業。</div>@@9@@CPCPay@@System@@sysdate@@System@@sysdate
+/
+SELECT * FROM OB_BINDING_INFO WHERE CHANNEL_ID=?
+/
+params:CPC
+/
